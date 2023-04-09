@@ -1,3 +1,3 @@
-// +build common
+// +build aws ali
 
 package ali

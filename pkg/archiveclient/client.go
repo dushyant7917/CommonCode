@@ -1,3 +1,5 @@
+// +build aws ali
+
 package archiveclient
 
 type ArchiveClient interface {
