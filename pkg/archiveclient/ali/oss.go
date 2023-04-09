@@ -12,3 +12,7 @@ func NewOSSClient() *OSSClient {
 func (c *OSSClient) GetBucketName() string {
 	return "foo"
 }
+
+func (c *OSSClient) GetLatestFile(key string) string {
+	return key + "/" + "foo"
+}

@@ -6,6 +6,6 @@ import (
 	"fmt"
 )
 
-func log(msg string) {
+func Log(msg string) {
 	fmt.Println(msg)
 }
